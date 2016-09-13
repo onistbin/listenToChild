@@ -1,7 +1,7 @@
 <template>
-    <h1>This is component a</h1>
-    <input type="button" name="name" value="ClickMe" v-on:click='onClickMe' />
-    <h2>这里也能读到父组件传过来的值：{{msgfromparent}}</h2>
+    <h1>这是子组件</h1>
+    <input type="button" name="name" value="传值给爸爸" v-on:click='onClickMe' />
+    <h2>这里是子组件，能读到父组件传过来的值：{{msgfromparent}}</h2>
 </template>
 
 <script>
