@@ -1,5 +1,5 @@
 # vue-project
-
+#vue 父子组件之间传递数据的一个很简单的小例子
 > A Vue.js project
 
 ## Build Setup
